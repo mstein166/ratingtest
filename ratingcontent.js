@@ -11,7 +11,7 @@ const title = document.querySelector('h1.headline-1');
 
 
 //pass letterboxd movie title to TMDB API to retrieve user score
-const apiKey = '4ba3fbcf0973176da613e5a3c67ecdc2'
+const apiKey = '4ba3fbcf0973176da613e5a3c67ecdc2';
 
 async function fetchMovieIdByTitle(movieTitle) {
   try {
