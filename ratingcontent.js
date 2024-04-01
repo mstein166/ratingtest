@@ -7,7 +7,6 @@ if (titleElement !== null) {
 } else {
   console.error('Movie title element not found.');
 }
-const title = document.querySelector('h1.headline-1');
 
 
 //pass letterboxd movie title to TMDB API to retrieve user score
